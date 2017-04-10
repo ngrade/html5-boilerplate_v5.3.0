@@ -131,7 +131,7 @@ textarea {
      z-index: 0;
      width: 100%;
      margin: 0;
-     height: 400px;
+     height: 450px;
    }
    .headline {
      position: absolute;
@@ -142,8 +142,8 @@ textarea {
      color: white;
    }
    .headline h1 {
-     font-size: 50px;
-     padding: 80px 100px 5px 100px;
+     font-size: 55px;
+     padding: 80px 150px 5px 150px;
    }
    .headline a {
      text-decoration: none;
@@ -153,10 +153,25 @@ textarea {
      font-size: 20px;
      font-weight: normal;
    }
-
-
-
-
+   .headline a:hover {
+     background-color: white;
+     color: black;
+   }
+   .below {
+     margin-top: 520px;
+     padding: 0 20px;
+     width: 100%
+   }
+   .about {
+     font-size: 13px;
+     border-bottom: 1px solid black;
+     width: 100%
+   }
+   .about p {
+     text-transform: none;
+     font-size: 20px;
+     font-weight: normal;
+   }
 
 
 
