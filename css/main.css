@@ -95,6 +95,64 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   * {
+     box-sizing: border-box;
+   }
+   html {
+     font-family: Helvetica, Arial, sans-serif;
+     text-transform: uppercase;
+     font-weight: bolder;
+   }
+   .header {
+     font-weight: 900;
+     font-size: 13px;
+     letter-spacing: -1px;
+     background-color: black;
+     color: white;
+     padding: 5px;
+     padding-left: 20px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 10;
+     border: 1px solid red;
+   }
+   header i {
+     float: right;
+     padding-right: 15px;
+   }
+   .content {
+     margin-top: 70px;
+     border: 1px solid red;
+   }
+   .banner {
+     position: absolute;
+     z-index: 0;
+     width: 100%;
+     margin: 0;
+     height: 400px;
+   }
+   .headline {
+     position: absolute;
+     width: 100%;
+     top: 80px;
+     text-align: center;
+     border: 1px solid red;
+     color: white;
+   }
+   .headline h1 {
+     font-size: 50px;
+     padding: 80px 100px 5px 100px;
+   }
+   .headline a {
+     text-decoration: none;
+     color: white;
+     border: 3px solid white;
+     padding: 15px 25px;
+     font-size: 20px;
+     font-weight: normal;
+   }
 
 
 
