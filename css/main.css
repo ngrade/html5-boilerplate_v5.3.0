@@ -131,15 +131,17 @@ textarea {
      height: 450px;
    }
    .headline {
+     display: block;
      position: absolute;
-     width: 100%;
-     top: 60px;
+     top: 40%;
+     left: 50%;
      text-align: center;
      color: white;
+     transform: translate(-50%, -50%);
    }
    .headline h1 {
      font-size: 55px;
-     padding: 80px 150px 5px 150px;
+     padding-bottom: 10px;
    }
    .headline a {
      text-decoration: none;
@@ -172,7 +174,6 @@ textarea {
    .latestwork {
      padding: 30px 0 20px 0;
      border-top: 1px solid #e1e1e1;
-
    }
    .latest {
       background-color: hsla(360, 100%, 100%, 0.70);
