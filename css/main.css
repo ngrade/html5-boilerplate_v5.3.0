@@ -115,19 +115,17 @@ textarea {
      left: 0;
      width: 100%;
      z-index: 10;
-     border: 1px solid red;
    }
    header i {
      float: right;
      padding-right: 15px;
    }
    .content {
-     margin-top: 60px;
-     border: 1px solid red;
+     margin-top: 58px;
    }
    .banner {
-     position: absolute;
-     z-index: 0;
+     position: relative;;
+     z-index: -10;
      width: 100%;
      margin: 0;
      height: 450px;
@@ -137,7 +135,6 @@ textarea {
      width: 100%;
      top: 60px;
      text-align: center;
-     border: 1px solid red;
      color: white;
    }
    .headline h1 {
@@ -157,14 +154,13 @@ textarea {
      color: black;
    }
    .below {
-     margin-top: 510px;
+     margin-top: 60px;
      padding: 0 20px;
-     width: 100%
+     width: 100%;
    }
    .about {
      font-size: 13px;
-     border-bottom: 1px solid #e1e1e1;
-     width: 100%
+     width: 100%;
    }
    .about p {
      text-transform: none;
@@ -173,38 +169,47 @@ textarea {
      padding-bottom: 20px;
      line-height: 1.5em;
    }
+   .latestwork {
+     padding: 30px 0 20px 0;
+     border-top: 1px solid #e1e1e1;
+
+   }
    .latest {
       background-color: hsla(360, 100%, 100%, 0.70);
       position: relative;
       float: left;
-      width: 50%;
-      padding: 1px;
+      width: 49%;
+      margin: 1px;
+   }
+   .latestwork h2 {
+     font-size: 20px;
    }
    .latest img {
-     border: 1px solid blue;
      width: 100%;
      display: block;
      position: relative;
      z-index: -10
    }
    .text {
-     border: 1px solid red;
      position: absolute;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
      text-align: center;
-   }
-   .text a {
-     text-decoration: none;
-     color: black;
      font-size: 20px;
+   }
+   .images {
+     margin-bottom: 20px;
+     overflow: auto;
    }
    footer {
      clear: both;
-   }
-   .text a:hover {
-     color: white;
+     border-top: 1px solid #e1e1e1;
+     text-align: center;
+     font-weight: normal;
+     text-transform: none;
+     font-size: 18px;
+     margin: 0 20px;
    }
    .latest:hover {
      background-color: hsla(360, 100%, 0%, 0.5);
